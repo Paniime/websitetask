@@ -182,6 +182,16 @@ footer {
     font-style: italic;
 }
 
+.popup .popuptext {
+  visibility: hidden;
+  /* ...other styles... */
+}
+.popup .show {
+  visibility: visible;
+  /* ...other styles... */
+}
+
+
 /* Footer */
 footer {
     text-align: center;
