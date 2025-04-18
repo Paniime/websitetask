@@ -22,9 +22,19 @@
             <h2>Featured Works</h2>
             <div class="gallery-container">
                 <div class="gallery-item">
-                     <img src="meow.png" alt="cat" />
+                   <div class="popup" onclick="myFunction()">Click to view image
+  <span class="popuptext" id="myPopup">
+    <img src="meow.png" alt="Popup Image" style="max-width:150px;">
+  </span>
+</div>
+
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
                     
-                    <a> href="https://paniime.github.io/websitetask/meow.png"</a>
                     
                     <h3>Masterpiece </h3>
                     <p>Created in 2025</p>
